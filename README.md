@@ -6,6 +6,7 @@ See the [Phoenix docs](https://kasper.github.io/phoenix/) for more details on in
 
 ## TODOs:
 - [x] move window to space based on key board shortcut (opt + shift + 1-9)
+- [ ] Organize [phoenix.js](./phoenix.js) file
 - [ ] add focus space number keyboard shortcut (OS/Amethyst handling this)
 - [ ] ability to save window confiuration/placement for multimonitor connection/disconnection
 - [ ] add Tile/snap windows using keyboard shortcut (possibly mouse - using Amethyst/Tiles to do this currently)

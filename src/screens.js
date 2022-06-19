@@ -1,5 +1,3 @@
-require('./logging.js');
-
 /* 
 Moves the active window to a the desired space number (works regarless if the space is on the same screen or not)
 */

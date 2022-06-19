@@ -1,0 +1,2 @@
+const LEFT_WIDTH_PERCENTAGE = 50; // Set it to 50 if you want symmetric left and right sides' widths
+const TOP_HEIGHT_PERCENTAGE = 50; // Set it to 50 if you want symmetric top and bottom sides' heights

@@ -39,7 +39,7 @@ guakeApp({
 });
 guakeApp({
 	key: "f",
-	modifiers: ["option", "shift"],
+	modifiers: ["ctrl", "shift"],
 	appName: "finder",
 	position: topHalf,
 	followsMouse: true,

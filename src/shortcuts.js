@@ -1,5 +1,12 @@
 require("./src/applications.js");
-require("./src/screens.js")
+require("./src/screens.js");
+require("./src/windows.js");
+require("./src/defaults.js")
+
+const debugMode = true;
+const debug = (message) =>  {
+  	if (debugMode) Phoenix.log("HERE: " + message);
+}
 
 // MOVE ACTIVE WINDOW TO SPACE 1-10
 for (let i = 0; i <=9; i ++ ) {
@@ -23,7 +30,7 @@ const leftTwoThirds = {left: 0, top: 0, right: 0.67, bottom: 0};
 // the guake style applications
 guakeApp({
 	key: "return",
-	modifiers: ["option", "shift"],
+	modifiers: HYPER_KEY,
 	appName: "kitty",
 	position: bottomHalf,
 	followsMouse: true,
@@ -31,7 +38,7 @@ guakeApp({
 });
 guakeApp({
 	key: "b",
-	modifiers: ["option", "shift"],
+	modifiers: HYPER_KEY,
 	appName: "Microsoft Edge",
 	position: full,
 	followsMouse: true,
@@ -55,7 +62,13 @@ guakeApp({
 });
 
 
+toggleFullscreen({
+	key: "f",
+	modifiers: HYPER_KEY,
+	appName: "Safari"
+})
+
 closeActiveWindow({
-	key: "c",
-	modifiers: ["option"]
+	key: "w",
+	modifiers: HYPER_KEY
 });

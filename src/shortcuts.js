@@ -30,7 +30,7 @@ const leftTwoThirds = {left: 0, top: 0, right: 0.67, bottom: 0};
 // the guake style applications
 guakeApp({
 	key: "return",
-	modifiers: HYPER_KEY,
+	modifiers: ["option", "shift"],
 	appName: "kitty",
 	position: bottomHalf,
 	followsMouse: true,

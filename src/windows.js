@@ -1,4 +1,3 @@
-require("./src/defaults.js")
 require("./src/applications.js")
 
 const toggleFullscreen = ({key, modifiers}) => {

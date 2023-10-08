@@ -34,7 +34,7 @@ guakeApp({
 	appName: "kitty",
 	position: bottomHalf,
 	followsMouse: true,
-	hideOnBlur: true,
+	hideOnBlur: false,
 });
 guakeApp({
 	key: "b",

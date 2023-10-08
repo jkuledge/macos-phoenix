@@ -23,7 +23,7 @@ function closeActiveWindow({key, modifiers}) {
 }) {
 	Key.on(key, modifiers, async function () {
 		let [app, opened] = await startApp(appName, { focus: false });
-		const focused_screen = Window.focused().screen()
+		const focused_screen = Screen.main()
 
 		// if the app started
 		if (app !== undefined) {

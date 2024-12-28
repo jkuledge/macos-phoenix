@@ -19,7 +19,7 @@ for (let i = 0; i <=9; i ++ ) {
 
 // common screen locations
 const topHalf = {left: 0,top: 0,right: 0,bottom: 0.};
-const bottomHalf = {left: 0, top: 0.67, right: 0, bottom: 0};
+const bottomHalf = {left: 0.0025, top: 0.67, right: 0.0025, bottom: 0.0025};
 const leftHalf = {left: 0, top: 0, right: 0.5, bottom: 0};
 const lowerLeftHalf = {left: 0, top: 0.5, right: 0.5, bottom: 0};
 const rightHalf = {left: 0.5, top: 0, right: 0, bottom: 0};
@@ -38,8 +38,8 @@ guakeApp({
 });
 guakeApp({
 	key: "b",
-	modifiers: HYPER_KEY,
-	appName: "Microsoft Edge",
+	modifiers: ["cmd", "control", "option", "shift"],
+	appName: "Arc",
 	position: full,
 	followsMouse: true,
 	hideOnBlur: false,

@@ -31,7 +31,7 @@ function closeActiveWindow({key, modifiers}) {
 			const space = moveAppToActiveSpace(app, followsMouse);
 
 		// set the app position
-		setAppPosition(app, position, space, focused_screen);
+		// setAppPosition(app, position, space, focused_screen);
 		// show or hide the app
 		if (app.isActive() && !opened) {
 			app.hide();

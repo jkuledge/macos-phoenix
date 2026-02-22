@@ -31,7 +31,7 @@ const leftTwoThirds = {left: 0, top: 0, right: 0.67, bottom: 0};
 guakeApp({
 	key: "return",
 	modifiers: ["cmd", "control", "option", "shift"],
-	appName: "kitty",
+	appName: "Ghostty",
 	position: bottomHalf,
 	followsMouse: true,
 	hideOnBlur: false,
